@@ -19,8 +19,8 @@ echo "-----untuk melihat atau menampilkan ip addres-----"
 ifconfig
 echo "-----Untuk menampilkan tanggal-----"
 date
-echo "-----Untuk membuat file kosong-----"
-touch adeken.txt
+echo "-----Untuk Membuat file baru-----"
+touch
 echo""
 : '
 echo "Disini saya hanya menunjukan beberapa perintah saja"
