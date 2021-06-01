@@ -15,7 +15,6 @@ PEMAKAIAN_SPACE=$(df)
 ISI_SPACE=$(du)
 HOST_NAME=$(hostname)
 IP=$(ifconfig)
-TANGGAL=$(date)
 echo "saat ini anda berada di bagian $LOKASI"
 echo -e "Daftar file yang anda miliki saat ini :\n$DAFTAR_FILE"
 echo "Jumlah File Yang Anda Miliki Saat Ini : $TOTAL_FILE"
@@ -26,7 +25,6 @@ echo""
 echo "Nama Host Yang Anda Gunakan Saat Ini : $HOST_NAME"
 echo -e "Tampilan Konfigurasi Jaringan :\n$IP"
 echo""
-echo "Tanggal Saat Ini : $TANGGAL"
 echo""
 read -p "Masukan Nama File Untuk Dieksekusi(jika tdk ada Kosongkan/langsung tekan enter) : " $FILE
 ./$FILE
