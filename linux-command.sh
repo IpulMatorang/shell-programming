@@ -15,6 +15,7 @@ PEMAKAIAN_SPACE=$(df)
 ISI_SPACE=$(du)
 HOST_NAME=$(hostname)
 IP=$(ifconfig)
+echo""
 echo "saat ini anda berada di bagian $LOKASI"
 echo -e "Daftar file yang anda miliki saat ini :\n$DAFTAR_FILE"
 echo "Jumlah File Yang Anda Miliki Saat Ini : $TOTAL_FILE"
